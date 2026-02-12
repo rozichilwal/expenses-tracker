@@ -1,10 +1,7 @@
 
 const STORAGE_KEY = 'expense_tracker_transactions';
 
-/**
- * Load transactions from localStorage
- * @returns {Array} Array of transaction objects
- */
+
 export const loadTransactions = () => {
     try {
         const data = localStorage.getItem(STORAGE_KEY);
@@ -15,10 +12,7 @@ export const loadTransactions = () => {
     }
 };
 
-/**
- * Save transactions to localStorage
- * @param {Array} transactions - Array of transaction objects to save
- */
+
 export const saveTransactions = (transactions) => {
     try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(transactions));

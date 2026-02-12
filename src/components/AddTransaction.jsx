@@ -92,7 +92,7 @@ function AddTransaction({ onAddTransaction }) {
             <h2>Add Transaction</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-grid">
-                    {/* Transaction Type */}
+                    
                     <div className="form-group">
                         <label htmlFor="type">Type</label>
                         <select
@@ -107,7 +107,7 @@ function AddTransaction({ onAddTransaction }) {
                         </select>
                     </div>
 
-                    {/* Title */}
+                    
                     <div className="form-group">
                         <label htmlFor="title">Title</label>
                         <input
@@ -121,7 +121,7 @@ function AddTransaction({ onAddTransaction }) {
                         />
                     </div>
 
-                    {/* Amount */}
+                    
                     <div className="form-group">
                         <label htmlFor="amount">Amount (₹)</label>
                         <input
@@ -137,7 +137,7 @@ function AddTransaction({ onAddTransaction }) {
                         />
                     </div>
 
-                    {/* Category */}
+                    
                     <div className="form-group">
                         <label htmlFor="category">Category</label>
                         <select
@@ -154,7 +154,7 @@ function AddTransaction({ onAddTransaction }) {
                         </select>
                     </div>
 
-                    {/* Date */}
+                    
                     <div className="form-group">
                         <label htmlFor="date">Date</label>
                         <input
@@ -168,7 +168,7 @@ function AddTransaction({ onAddTransaction }) {
                     </div>
                 </div>
 
-                {/* Submit Button */}
+                
                 <div className="form-actions">
                     <button
                         type="submit"
